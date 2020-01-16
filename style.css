@@ -1,0 +1,20 @@
+body{font-family: Verdana; font-size: 14px;}
+
+.form_convert{
+    display: table;
+    margin: 150px auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgba(0, 0, 0, 0.3);
+}
+
+.currency{
+    margin-left: 10px;
+}
+
+input[type=text], input[type=password] {display: table-cell; padding:5px; border:2px solid #ccc; -webkit-border-radius: 5px;border-radius: 5px;}
+input[type=text]:focus, input[type=password]:focus{border-color:#333; }
+input[type=submit],.btn_chat {padding:5px 15px; background:#65c178; color:white;font-weight: 700; border:0 none;cursor:pointer;-webkit-border-radius: 5px;border-radius: 5px; }
+input[type=submit]:hover,.btn_chat:hover {background:#59a969;}
+a {text-decoration: none;}
